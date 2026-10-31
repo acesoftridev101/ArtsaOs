@@ -10,7 +10,7 @@ CXXFLAGS = -m32 -std=c++17 -ffreestanding \
            -fno-pie -fno-threadsafe-statics \
            -fno-use-cxa-atexit
 
-all: astraos.iso
+all: artsaos.iso
 
 build:
 	mkdir -p build/isodir/boot/grub
