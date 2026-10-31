@@ -1,8 +1,8 @@
-AstraOS
+ArtsaOS
 
 
 
-AstraOS is an experimental 32-bit x86 operating system written in C++.
+ArtsaOS is an experimental 32-bit x86 operating system written in C++.
 
 
 
@@ -35,8 +35,7 @@ Boot protocol: Multiboot 1
 Status
 
 
-
-AstraOS is currently an experimental hobby operating system under development.
+ArtsaOS is currently an experimental hobby operating system under development.
 
 
 
@@ -64,6 +63,6 @@ This took me about a year to make. Don't mind the file size, but the file size i
 
 I never tested this operating system before, so don't expect it to work all the time. This operating system is made in Makefile, Shell, Assembly, Linker Script, and c++.
 
-By the way, this is my first operating system I ever made. I needed a lot of experience in programming to make this operating system. 
+By the way, this is my first operating system I ever made. I needed a lot of experience in programming to make this.
 
-You will need to compile these since it's just raw source code right now that isn't compiled. That means it cannot run. You compile it into an .exe file then run it. Not on the Makefile, but on the source code of Astraos.cpp you compile it. You run the Makefile first though. Keep the Makefile, bendo.bash, boot.s, grub.cfg, and the linker.ld with the Astraos.cpp, the .gitignore, and the readme.md.
+Keep the Makefile, bendo.bash, boot.s, grub.cfg, and the linker.ld with the Astraos.cpp, the .gitignore, and the readme.md.
