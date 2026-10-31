@@ -58,3 +58,4 @@ Application support
 
 Warning: This project is experimental. Test it in an emulator such as QEMU before attempting to boot physical hardware.
 
+Also! Me (so as acesoftridev101) will NOT be responsible for any of the damages that is caused with improper use.
