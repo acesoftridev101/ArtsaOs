@@ -26,13 +26,13 @@ build/kernel.elf: build/boot.o build/kernel.o linker.ld
 		-o build/kernel.elf \
 		build/boot.o build/kernel.o -lgcc
 
-astraos.iso: build/kernel.elf
+artsaos.iso: build/kernel.elf
 	grub-file --is-x86-multiboot build/kernel.elf
 	cp build/kernel.elf build/isodir/boot/kernel.elf
 	cp grub.cfg build/isodir/boot/grub/grub.cfg
-	grub-mkrescue -o astraos.iso build/isodir
+	grub-mkrescue -o artsaos.iso build/isodir
 
 clean:
-	rm -rf build astraos.iso
+	rm -rf build artsaos.iso
 
 .PHONY: all clean
