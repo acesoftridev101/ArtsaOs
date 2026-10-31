@@ -1,2 +1,2 @@
-grub-mkrescue -o astraos.iso isodir/
-qemu-system-i386 -cdrom astraos.iso
+grub-mkrescue -o artsaos.iso isodir/
+qemu-system-i386 -cdrom artsaos.iso
