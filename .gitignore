@@ -1,0 +1,35 @@
+
+# Build output
+build/
+dist/
+*.iso
+*.elf
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+
+# Visual Studio files
+.vs/
+.vscode/
+*.suo
+*.user
+*.cache
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Private files
+.env
+.env.*
+secrets/
+private/
+*.key
+*.pem
+
+# Personal backups
+*.bak
+*.old
+*.tmp
