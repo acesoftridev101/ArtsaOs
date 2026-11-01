@@ -31,11 +31,11 @@ i686-elf-g++ -std=gnu++17 -m32 -O2 \
   -ffreestanding -fno-exceptions -fno-rtti \
   -fno-stack-protector -fno-pic -fno-pie \
   -fno-threadsafe-statics -fno-use-cxa-atexit \
-  -fno-builtin -c astraos.cpp -o astraos.o
+  -fno-builtin -c artsaos.cpp -o artsaos.o
 
 i686-elf-g++ -m32 -T linker.ld \
   -ffreestanding -nostdlib -no-pie \
   -Wl,--build-id=none \
-  -o astraos.elf astraos.o -lgcc
+  -o artsaos.elf artsaos.o -lgcc
 
-grub-file --is-x86-multiboot astraos.elf
+grub-file --is-x86-multiboot artsaos.elf
