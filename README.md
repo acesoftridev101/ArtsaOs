@@ -67,4 +67,4 @@ By the way, this is my first operating system I ever made. I needed a lot of exp
 
 Keep the Makefile, bendo.bash, boot.s, grub.cfg, and the linker.ld with the Astraos.cpp, the .gitignore, and the readme.md.
 
-Also, I would say this is a Linux distribution because to compile this operating system you need WSL (Windows Subsystem Linux) or you will need to be on a linux operating system. Don't expect this to work on Windows. Unless you somehow boot into multiboot 1 and make the .iso file for my operating system on Windows. This uses the i686-elf-g++ compiler which is only installed on Linux. 
+Also, I would say this is a Linux distribution because to compile this operating system you need WSL (Windows Subsystem Linux) or you will need to be on a Linux operating system. Don't expect this to work on Windows. Unless you somehow boot into multiboot 1 and make the .iso file for my operating system on Windows. This uses the i686-elf-g++ compiler which is only installed on Linux. 
