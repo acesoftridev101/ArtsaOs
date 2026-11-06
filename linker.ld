@@ -1,4 +1,4 @@
-<CodeBlock language="text" editable>
+<CodeBlock language="bash" editable>
 ENTRY(_start)
 
 SECTIONS
